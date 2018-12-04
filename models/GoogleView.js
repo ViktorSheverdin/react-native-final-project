@@ -19,6 +19,14 @@ class GoogleView {
                       {
                         type: "WEB_DETECTION",
                         maxResults: 5
+                      },
+                      {
+                        type: "LANDMARK_DETECTION",
+                        maxResults: 5
+                      },
+                      {
+                      type: "TEXT_DETECTION",
+                      maxResults: 5
                       }
                     ]
                   }
